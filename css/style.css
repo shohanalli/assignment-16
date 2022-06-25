@@ -1,0 +1,98 @@
+.background{
+background-image:url(../img/pexels-40.jpg);
+background-size:cover;
+background-repeat: no-repeat;
+height: 100vh; 
+background-position: center;
+background-attachment: fixed;
+overflow: hidden;
+
+}
+.login{
+
+height: 400px;
+width: 310px;
+background-color:rgba(139, 99, 177, 0.658);
+margin: 90px 0 0 850px;
+padding: 30px 30px;
+
+}
+h1{
+
+text-align: center;
+font-size: 30px;
+}
+.login p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+
+
+}
+
+.login input{
+width: 100%;
+margin-bottom: 20px;
+
+
+}
+.login input[type="password"]{
+border: none;
+border-bottom: 1px solid #fff;
+outline: none;
+height: 40px;
+background: transparent;
+font-size: 15px;
+
+
+}
+.text{
+    background: transparent;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    height: 40px;  
+}
+.submit
+{
+border: none;
+outline: none;
+height: 40px;
+background-color: #f2525f;
+color: #fff;
+font-size: 19px;
+border-radius: 15px;
+
+
+
+
+}
+.submit:hover{
+cursor: pointer;
+background: #ffc107;
+color: #000;
+
+}
+
+a{
+
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+    
+
+
+}
+a:hover{
+
+color: #ffc107;
+}
+::placeholder{
+color:#f2525f;
+font-size: 19px;
+
+
+
+}
+
